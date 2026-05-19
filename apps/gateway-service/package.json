@@ -1,0 +1,16 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fastify": "^5.3.3",
+    "@fastify/http-proxy": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3"
+  }
+}
